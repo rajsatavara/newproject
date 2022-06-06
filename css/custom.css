@@ -1,0 +1,238 @@
+.fleft
+{
+	float:left;
+	width:30%;
+	border:0px solid pink;
+	padding:5px;
+	margin:10px;
+	}
+.submit_btn
+{
+	background:#77699d;
+	padding:5px;
+	color:white;
+	margin:2px;
+}
+.fa 
+{
+	padding:3px;
+	
+}
+.fright
+{
+	float:right;
+	width:47%;
+	margin:10px;
+	padding:70px;
+	border:0px solid pink;	
+}
+.category
+{
+	float:left;
+	border:1px solid grey;
+	width:15%;
+	height:285px;
+	margin:10px 15px;
+	
+}
+.category ul 
+{
+	padding-inline-start:5px;
+}
+.main
+{
+	clear: both;
+	display:block;
+	margin:20px;
+}
+.header
+{
+	background:#77699d;
+	height:150px;
+	margin:10px;
+	padding:5px;
+}
+.logo
+{
+
+	float:left; 
+	color:white;
+	width:120px; 
+	height:140px;
+}
+.social
+{
+	float:right;
+}
+.foot
+{
+	float:left;
+	width:50%;
+	height:200px;
+}
+.boxstyle li
+{
+	box-shadow:2px 1px 5px 2px;
+	margin:10px;
+	padding:2px;
+	display:block;
+	
+}
+.boxstyle ul
+{
+	padding-inline-start:10px;
+}
+.boxstyle  a
+{
+	text-decoration:none;
+}
+.menu li
+{
+	float:right;
+	display:inline-block;
+	padding:5px;
+
+	
+}
+.menu a
+{
+	text-decoration:none;
+	line-height:50px;
+	background:#5f998e96;
+	color:white;
+	padding:10px;
+}
+.main2
+{
+	background:pink;
+}
+
+.nav 
+{
+	display:inline-block;
+	text-decoration:none;
+	margin-bottom:5px;
+	width:100%;
+	padding:3px;
+}
+
+ 
+.dis
+{
+	background:#77699d;
+	color:#ddcece;
+	margin:5px;
+}
+.dbdis
+{
+	background: #461b1b4f;
+}
+	fa
+{
+	background:#ea292970;
+	padding:10px;
+}
+.footer
+{
+	width:100%;
+	background:#77699d;
+	text-align: Left;
+	color:white;
+	padding:10px;
+	margin-top:15px;
+	height:180px;
+}
+.create
+{
+	
+}
+@media screen and (max-width: 600px)
+{
+	.fleft
+{
+	width:30%;
+	float:none;
+		
+}
+	.fright
+{
+	float:none;
+}
+.main
+{
+	clear: both;
+}
+
+.nav ul  a
+{
+	
+	margin:20px;
+	text-decoration:none;
+	float:right;
+
+}
+.heading
+{
+	display:block;
+	background:pink;
+	color:black;
+	font-size:20px;
+	width:100%;
+	
+	
+}
+li:hover
+{
+
+	background:pink;
+	color:black;
+	display:block
+}
+table  tr th
+{
+	display:none;
+	width:100%;
+	float:left;
+}
+
+table td
+{
+	width: 100%;
+    float: left;
+    display: block;
+   box-shadow:-2px -1px 5px 2px;
+}
+table tr
+{
+	display:block;
+	margin-bottom:20px;
+	padding:20px;
+	clear:both;
+	
+}
+table tr td::before
+{
+	content:attr(data-title);
+	display:block;
+	width:100%;
+}
+table tr th
+{
+	float:left;
+	width:50%;
+}
+.footer
+{
+	width:100%;
+	background:black;
+	text-align: center;
+	color:white;
+	padding:10px;
+	margin-top:15px;
+}
+.dbdis
+{
+	background:none;
+}
+
+}
